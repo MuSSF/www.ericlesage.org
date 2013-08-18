@@ -1,0 +1,40 @@
+/*
+ * Cascading style sheet for Ikarios.fr 
+ * Made by Guy Capra, Alomphega.
+ * Edited by Muriel.
+ */
+
+body { background-color: #000000; background-attachment: fixed; background-repeat: no-repeat ; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #000000;}
+h1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18pt; font-weight: bold; color: #FFFFFF; text-decoration: underline overline; text-align: center;} 
+h2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt; font-weight: bold; color: #FFFFFF; text-decoration: underline overline;} 
+h3 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #FFFFFF; text-decoration: underline;} 
+h4 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; color: #FFFFFF;} 
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF;} 
+tbody {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #FFFFFF;}
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: #FF0000; text-decoration: underline overline; font-weight: bold;} 
+a:active { font-family: Verdana, Arial, Helvetica, sans-serif; color: #CCCC00; text-decoration: underline overline; font-weight: bold;} 
+a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: #0099FF; text-decoration: underline;} 
+a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; color: #0099FF; text-decoration: underline;} 
+
+.menu { position: absolute; top: 12em; left: 2%; padding: 5px;
+        border: 0px }
+.menu p { text-align: left; }
+html>body .menu { position: fixed; }
+
+.flottantedroite {
+  float: right;
+  padding: 0px 0px 25px 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.flottantegauche {
+  float: left;
+  padding: 0px 25px 0px 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.spacer {
+  clear: both;
+}
