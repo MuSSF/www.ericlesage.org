@@ -7,15 +7,15 @@ Premier accès:
 
 Modifier:
 
-0. Si ajout d'un nouveau fichier (indispensable pour qu'il le voie)
+0.Si ajout d'un nouveau fichier (indispensable pour qu'il le voie)
 
     git add NouveauFichier.html
 
-1. Puis, pour enregistrer les modifications dans la base de données locales : 
+1.Puis, pour enregistrer les modifications dans la base de données locales : 
 
     git commit -a -m "Ajout nouveau fichier"
     
-2. Enfin pour propager au dépôt (de référence ici) distant :
+2.Enfin pour propager au dépôt (de référence ici) distant :
 
     git push origin master
     
